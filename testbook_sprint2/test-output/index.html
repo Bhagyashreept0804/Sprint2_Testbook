@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-testbookSuite">
+              <span class="suite-name border-passed">testbookSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-testbookSuite">
+                    <span>C:\demo\eclipse\testbook_sprint2\src\test\resources\testbook.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-testbookSuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-testbookSuite">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-testbookSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-testbookSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-testbookSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-testbookSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-testbookSuite" class="hide-methods passed suite-testbookSuite"> (hide)</a> <!-- hide-methods passed suite-testbookSuite -->
+                      <a href="#" panel-name="suite-testbookSuite" class="show-methods passed suite-testbookSuite"> (show)</a> <!-- show-methods passed suite-testbookSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-testbookSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-testbookSuite" title="testRunner.testRunner" hash-for-method="run_cukes">run_cukes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-testbookSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-testbookSuite" class="panel testbookSuite">
+          <div class="suite-testbookSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testRunner.testRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="run_cukes">
+                  </a> <!-- run_cukes -->
+                  <span class="method-name">run_cukes</span>
+                  <em>
+(Runs Cucumber Features)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-testbookSuite-class-passed -->
+        </div> <!-- panel testbookSuite -->
+        <div panel-name="test-xml-testbookSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\demo\eclipse\testbook_sprint2\src\test\resources\testbook.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;testbookSuite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;testtestbook&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;base.Testbook_Base&quot;/&gt;
+      &lt;class name=&quot;testRunner.testRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- testtestbook --&gt;
+&lt;/suite&gt; &lt;!-- testbookSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-testbookSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for testbookSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">testtestbook (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-testbookSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for testbookSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">run_cukes</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-testbookSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for testbookSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_testbookSuite');
+function tableData_testbookSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'run_cukes')
+data.setCell(0, 2, 'testRunner.testRunner')
+data.setCell(0, 3, 148090);
+window.suiteTableData['testbookSuite']= { tableData: data, tableDiv: 'times-div-testbookSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-testbookSuite">
+              </div> <!-- times-div-testbookSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-testbookSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for testbookSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">run_cukes</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div "featureFile">Feature File: C:&#x2F;demo&#x2F;eclipse&#x2F;testbook_sprint2&#x2F;src&#x2F;test&#x2F;resources&#x2F;featurefiles&#x2F;1loginwithemail.feature</div></span>
+                <span class="reporter-method-output"><div "feature">Feature: login</div></span>
+                <span class="reporter-method-output"><div "scenario">Scenario: Login with email</div></span>
+                <span class="reporter-method-output"><div "result">Given  user on login page (passed : 7s)</div></span>
+                <span class="reporter-method-output"><div "result">When  enter valid email and valid password (passed : 42s)</div></span>
+                <span class="reporter-method-output"><div "result">Then  Testbook home page display (passed : 0s)</div></span>
+                <span class="reporter-method-output"><div "scenarioOutline">Scenario Outline: Login with invalid passsword and valid email</div></span>
+                <span class="reporter-method-output"><div "scenario">Scenario Outline: Login with invalid passsword and valid email</div></span>
+                <span class="reporter-method-output"><div "result">Given  user on login page (passed : 6s)</div></span>
+                <span class="reporter-method-output"><div "result">When  enter valid email and invalid password &lt;email&gt; &lt;password&gt; (passed : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">Then  Error message is displayed (passed : 0s)</div></span>
+                <span class="reporter-method-output"><div "featureFile">Feature File: C:&#x2F;demo&#x2F;eclipse&#x2F;testbook_sprint2&#x2F;src&#x2F;test&#x2F;resources&#x2F;featurefiles&#x2F;2livecourse.feature</div></span>
+                <span class="reporter-method-output"><div "feature">Feature: live classes and courses</div></span>
+                <span class="reporter-method-output"><div "scenario">Scenario: live classes are displayed</div></span>
+                <span class="reporter-method-output"><div "result">Given  user on login page (passed : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">When  enter valid email and invalid password bpt0804@gmail.com abc123 (passed : 0s)</div></span>
+                <span class="reporter-method-output"><div "scenario">Scenario: attends live classes</div></span>
+                <span class="reporter-method-output"><div "result">Then  Error message is displayed (passed : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">Given  user on home page (passed : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">Then  live classes displayed on right (passed : 10s)</div></span>
+                <span class="reporter-method-output"><div "scenario">Scenario: Access live classes</div></span>
+                <span class="reporter-method-output"><div "result">Given  user on home page (passed : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">When  click on live classes (passed : 13s)</div></span>
+                <span class="reporter-method-output"><div "result">Then  live classes are shown (passed : 0s)</div></span>
+                <span class="reporter-method-output"><div "featureFile">Feature File: C:&#x2F;demo&#x2F;eclipse&#x2F;testbook_sprint2&#x2F;src&#x2F;test&#x2F;resources&#x2F;featurefiles&#x2F;3transactions.feature</div></span>
+                <span class="reporter-method-output"><div "feature">Feature: billings and payments</div></span>
+                <span class="reporter-method-output"><div "scenario">Scenario: payment options through courses</div></span>
+                <span class="reporter-method-output"><div "result">Given  user in live classes tab (passed : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">When  click on one live class (passed : 13s)</div></span>
+                <span class="reporter-method-output"><div "result">Then  user can attend live class (passed : 14s)</div></span>
+                <span class="reporter-method-output"><div "scenario">Scenario: Get Pass button display</div></span>
+                <span class="reporter-method-output"><div "result">Given  user on testbook pass page (passed : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">When  purchased through courses (passed : 0s)</div></span>
+                <span class="reporter-method-output"><div "scenario">Scenario: view purchase plan</div></span>
+                <span class="reporter-method-output"><div "result">Then  payments options should displayed (passed : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">Given  user is on testbook home page (passed : 4s)</div></span>
+                <span class="reporter-method-output"><div "result">Then  get pass button is displayed (passed : 0s)</div></span>
+                <span class="reporter-method-output"><div "scenario">Scenario: View Payment options</div></span>
+                <span class="reporter-method-output"><div "result">Given  user is on testbook buy page (passed : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">When  click on get pass (passed : 3s)</div></span>
+                <span class="reporter-method-output"><div "result">Then  able to view all purchase plan (passed : 7s)</div></span>
+                <span class="reporter-method-output"><div "scenarioOutline">Scenario Outline: Users should be able to update his valid Card details.</div></span>
+                <span class="reporter-method-output"><div "scenario">Scenario Outline: Users should be able to update his valid Card details.</div></span>
+                <span class="reporter-method-output"><div "result">Given  user is on testbook pass page (passed : 0s)</div></span>
+                <span class="reporter-method-output"><div "result">When  click on buy pass (passed : 17s)</div></span>
+                <span class="reporter-method-output"><div "result">Then  able to view different payment options (passed : 0s)</div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-testbookSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-testbookSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">base.Testbook_Base</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">before_scenario</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testRunner.testRunner</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">run_cukes</span>
+                <span class="method-start">3682 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">base.Testbook_Base</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">after_scenario</span>
+                <span class="method-start">151861 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

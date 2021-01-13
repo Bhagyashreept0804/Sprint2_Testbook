@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: C:&#x2F;demo&#x2F;eclipse&#x2F;testbook_sprint2&#x2F;src&#x2F;test&#x2F;resources&#x2F;featurefiles&#x2F;1loginwithemail.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: login</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Login with email</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  user on login page (passed : 7s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  enter valid email and valid password (passed : 42s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Testbook home page display (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenarioOutline">Scenario Outline: Login with invalid passsword and valid email</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Login with invalid passsword and valid email</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  user on login page (passed : 6s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  enter valid email and invalid password &lt;email&gt; &lt;password&gt; (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Error message is displayed (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: C:&#x2F;demo&#x2F;eclipse&#x2F;testbook_sprint2&#x2F;src&#x2F;test&#x2F;resources&#x2F;featurefiles&#x2F;2livecourse.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: live classes and courses</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: live classes are displayed</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  user on login page (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  enter valid email and invalid password bpt0804@gmail.com abc123 (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: attends live classes</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Error message is displayed (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  user on home page (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  live classes displayed on right (passed : 10s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Access live classes</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  user on home page (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  click on live classes (passed : 13s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  live classes are shown (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: C:&#x2F;demo&#x2F;eclipse&#x2F;testbook_sprint2&#x2F;src&#x2F;test&#x2F;resources&#x2F;featurefiles&#x2F;3transactions.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: billings and payments</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: payment options through courses</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  user in live classes tab (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  click on one live class (passed : 13s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  user can attend live class (passed : 14s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Get Pass button display</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  user on testbook pass page (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  purchased through courses (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: view purchase plan</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  payments options should displayed (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  user is on testbook home page (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  get pass button is displayed (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: View Payment options</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  user is on testbook buy page (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  click on get pass (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  able to view all purchase plan (passed : 7s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenarioOutline">Scenario Outline: Users should be able to update his valid Card details.</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Users should be able to update his valid Card details.</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  user is on testbook pass page (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  click on buy pass (passed : 17s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  able to view different payment options (passed : 0s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="testbookSuite" duration-ms="148126" started-at="2021-01-13T07:07:33Z" finished-at="2021-01-13T07:10:01Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:testRunner.testRunner@62e7f11d]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="testtestbook" duration-ms="148126" started-at="2021-01-13T07:07:33Z" finished-at="2021-01-13T07:10:01Z">
+      <class name="base.Testbook_Base">
+        <test-method status="PASS" signature="before_scenario()[pri:0, instance:base.Testbook_Base@3972a855]" name="before_scenario" is-config="true" duration-ms="3651" started-at="2021-01-13T07:07:29Z" finished-at="2021-01-13T07:07:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_scenario -->
+        <test-method status="PASS" signature="after_scenario()[pri:0, instance:base.Testbook_Base@3972a855]" name="after_scenario" is-config="true" duration-ms="2005" started-at="2021-01-13T07:10:01Z" finished-at="2021-01-13T07:10:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_scenario -->
+      </class> <!-- base.Testbook_Base -->
+      <class name="testRunner.testRunner">
+        <test-method status="PASS" signature="run_cukes()[pri:0, instance:testRunner.testRunner@62e7f11d]" name="run_cukes" duration-ms="148090" started-at="2021-01-13T07:07:33Z" description="Runs Cucumber Features" finished-at="2021-01-13T07:10:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: C:&#x2F;demo&#x2F;eclipse&#x2F;testbook_sprint2&#x2F;src&#x2F;test&#x2F;resources&#x2F;featurefiles&#x2F;1loginwithemail.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: login</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Login with email</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  user on login page (passed : 7s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  enter valid email and valid password (passed : 42s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Testbook home page display (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenarioOutline">Scenario Outline: Login with invalid passsword and valid email</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Login with invalid passsword and valid email</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  user on login page (passed : 6s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  enter valid email and invalid password &lt;email&gt; &lt;password&gt; (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Error message is displayed (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: C:&#x2F;demo&#x2F;eclipse&#x2F;testbook_sprint2&#x2F;src&#x2F;test&#x2F;resources&#x2F;featurefiles&#x2F;2livecourse.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: live classes and courses</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: live classes are displayed</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  user on login page (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  enter valid email and invalid password bpt0804@gmail.com abc123 (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: attends live classes</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Error message is displayed (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  user on home page (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  live classes displayed on right (passed : 10s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Access live classes</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  user on home page (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  click on live classes (passed : 13s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  live classes are shown (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: C:&#x2F;demo&#x2F;eclipse&#x2F;testbook_sprint2&#x2F;src&#x2F;test&#x2F;resources&#x2F;featurefiles&#x2F;3transactions.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: billings and payments</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: payment options through courses</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  user in live classes tab (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  click on one live class (passed : 13s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  user can attend live class (passed : 14s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Get Pass button display</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  user on testbook pass page (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  purchased through courses (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: view purchase plan</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  payments options should displayed (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  user is on testbook home page (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  get pass button is displayed (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: View Payment options</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  user is on testbook buy page (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  click on get pass (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  able to view all purchase plan (passed : 7s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenarioOutline">Scenario Outline: Users should be able to update his valid Card details.</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Users should be able to update his valid Card details.</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  user is on testbook pass page (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  click on buy pass (passed : 17s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  able to view different payment options (passed : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run_cukes -->
+      </class> <!-- testRunner.testRunner -->
+    </test> <!-- testtestbook -->
+  </suite> <!-- testbookSuite -->
+</testng-results>
